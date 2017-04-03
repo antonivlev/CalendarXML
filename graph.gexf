@@ -1,0 +1,20 @@
+<!-- <?xml version="1.0" encoding="UTF−8"?> -->
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+	<meta lastmodifieddate="2009−03−20">
+		<creator>Gephi.org</creator>
+		<description>A hello world! file</description>
+	</meta>
+
+	<graph defaultedgetype="directed">
+		<nodes>
+			<node id="msk" label="Moscow"/>
+			<node id="lndn" label="London"/>
+			<node id="ny" label="New York"/>
+		</nodes>
+
+		<edges>
+			<edge id="0" source="msk" target="lndn"/>
+			<edge id="1" source="ny" target="lndn"/>
+		</edges>
+	</graph>
+</gexf>
